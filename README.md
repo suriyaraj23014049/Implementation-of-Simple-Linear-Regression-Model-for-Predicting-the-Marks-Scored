@@ -86,7 +86,7 @@ rmse=np.sqrt(mse)
 print("RMSE= ",rmse)
 
 ![image](https://github.com/user-attachments/assets/a7a33bb9-fa9f-4832-a627-b4012d7adaa9)
-
+```
 plt.scatter(x_train,y_train,color="green")
 plt.plot(x_train, regressor.predict(x_train), color="red")
 plt.title('Training set (H vs S)')
@@ -99,6 +99,7 @@ plt.title('Test_set(H vs S)')
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
+```
 
 ![image](https://github.com/user-attachments/assets/0b96177d-c399-4105-af42-7d829e9514aa)
 ![image](https://github.com/user-attachments/assets/392464da-22f2-4e6f-a358-56985f7aefba)
